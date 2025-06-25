@@ -18,3 +18,7 @@ cat <<EOF > $CHANNELS_LIST_FILE
 EOF
 
 echo "Тепер можете оновити $CHANNELS_LIST_FILE списком бажаних каналів."
+
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
