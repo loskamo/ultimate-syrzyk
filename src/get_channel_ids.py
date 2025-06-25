@@ -42,7 +42,7 @@ for name in channel_names:
         print(f"[!] Не знайдено: {name}")
         channel_id_map[name] = None
 
-    time.sleep(0.2)
+    time.sleep(0.3)
 
 with open(IDS_FILE, "w", encoding="utf-8") as f:
     json.dump(channel_id_map, f, ensure_ascii=False, indent=2)
