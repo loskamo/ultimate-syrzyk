@@ -1,8 +1,11 @@
 requests
 youtube-comment-downloader
+matplotlib
 pandas
 pyarrow
 fasttext
 tqdm
 regex
 joblib
+hunspell
+wordfreq
