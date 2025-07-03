@@ -9,3 +9,4 @@ regex
 joblib
 hunspell
 wordfreq
+seaborn
