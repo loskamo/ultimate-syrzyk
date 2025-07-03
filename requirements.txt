@@ -1,2 +1,8 @@
 requests
 youtube-comment-downloader
+pandas
+pyarrow
+fasttext
+tqdm
+regex
+joblib
